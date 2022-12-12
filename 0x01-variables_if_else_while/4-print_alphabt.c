@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - print all lowercase alphabet excep q and e
- * Return - Always 0
+ * Return: Always 0
  */
 int main(void)
 {
@@ -12,8 +12,8 @@ int main(void)
 	if (ch != 'q' && ch != 'e')
 	{
 	putchar(ch);
+	}
+	}
 	putchar('\n');
-	}
-	}
 	return (0);
 }
