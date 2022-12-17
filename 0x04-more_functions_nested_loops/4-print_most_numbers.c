@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  * print_most_numbers - print out digits 0 to 9 except 2 and 4
- *Return: no return
+ * Return: no return
  */
 void print_most_numbers(void)
 {
@@ -10,7 +10,7 @@ void print_most_numbers(void)
 
 	for (i = 48; i <= 58 ; i++)
 	{
-		if (i != 50 || i != 52)
+		if (i != 50 && i != 52)
 		{
 			_putchar(i);
 		}
